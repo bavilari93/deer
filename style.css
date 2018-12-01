@@ -40,4 +40,55 @@ html > * {
     background: #cc9999;
     transform: rotate(20deg); }
 
+.nose {
+  position: absolute;
+  background: #fff;
+  height: 8rem;
+  width: 5rem;
+  border-radius: 30% 30% 50% 50%;
+  margin-left: 2.5rem; }
+  .nose:before, .nose:after {
+    content: '';
+    position: absolute; }
+  .nose:before {
+    height: 3rem;
+    width: 3rem;
+    background: black;
+    border-radius: 100%;
+    margin-top: 3rem;
+    margin-left: 1rem; }
+  .nose:after {
+    margin-top: 6rem;
+    margin-left: 1.4rem;
+    height: .5rem;
+    width: 2rem;
+    border-bottom: solid .05rem black;
+    border-right: solid .05rem black;
+    border-left: solid .04rem black;
+    border-top: solid .3rem transparent;
+    border-radius: 100%; }
+
+.eye {
+  position: absolute;
+  height: .8rem;
+  width: .8rem;
+  border-radius: 100%;
+  background: black;
+  margin-top: 2rem;
+  margin-left: .6rem; }
+  .eye:before, .eye:after {
+    content: '';
+    position: absolute;
+    background: black; }
+  .eye:before {
+    height: .8rem;
+    width: .8rem;
+    border-radius: 100%;
+    margin-left: 8rem; }
+  .eye:after {
+    height: 1rem;
+    width: .2rem;
+    margin-top: 3.8rem;
+    margin-left: 4.2rem; }
+
 /*# sourceMappingURL=style.css.map */
