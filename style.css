@@ -1,0 +1,43 @@
+html > * {
+  margin: 0;
+  border: 0;
+  padding: 0; }
+
+.container {
+  display: flex;
+  justify-content: center;
+  heigh: 100vh;
+  width: 100vw; }
+
+.face {
+  background: #cc9999;
+  height: 10rem;
+  width: 10rem;
+  transform: rotate(5deg);
+  border-radius: 15% 15% 0 0;
+  margin-top: 10rem; }
+  .face:before, .face:after {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    height: 3.5rem;
+    width: 2.7rem;
+    margin-top: -2rem; }
+  .face:before {
+    transform: rotate(-85deg);
+    border-right: 0.2rem solid #cc9999;
+    border-left: .2rem solid transparent;
+    border-top: .2rem solid transparent;
+    border-radius: 85% 6% 50% 0;
+    background: #cc9999;
+    margin-left: -1.6rem; }
+  .face:after {
+    margin-left: 8.7rem;
+    border-right: 0.2rem solid #cc9999;
+    border-left: .2rem solid transparent;
+    border-top: .2rem solid transparent;
+    border-radius: 85% 6% 50% 0;
+    background: #cc9999;
+    transform: rotate(20deg); }
+
+/*# sourceMappingURL=style.css.map */
