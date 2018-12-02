@@ -70,8 +70,8 @@ html > * {
 
 .eye {
   position: absolute;
-  height: .8rem;
-  width: .8rem;
+  height: .5rem;
+  width: .5rem;
   border-radius: 100%;
   background: black;
   margin-top: 2rem;
@@ -81,8 +81,8 @@ html > * {
     position: absolute;
     background: black; }
   .eye:before {
-    height: .8rem;
-    width: .8rem;
+    height: .5rem;
+    width: .5rem;
     border-radius: 100%;
     margin-left: 8rem; }
   .eye:after {
@@ -101,5 +101,27 @@ html > * {
 
 .left {
   margin-left: 7.7rem; }
+
+.antlayer {
+  position: absolute;
+  height: 5rem;
+  width: 5rem;
+  transform: rotate(20deg);
+  border-right: solid .7rem black;
+  border-top: solid 0rem transparent;
+  border-radius: 30%;
+  margin-top: 5rem;
+  margin-left: 1.7rem; }
+  .antlayer:before {
+    content: '';
+    position: absolute;
+    height: 5rem;
+    width: 5rem;
+    transform: rotate(-20deg);
+    margin-left: -1rem;
+    margin-top: .3rem;
+    border-left: solid .7rem black;
+    border-top: solid 0rem transparent;
+    border-radius: 30%; }
 
 /*# sourceMappingURL=style.css.map */

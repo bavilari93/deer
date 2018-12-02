@@ -107,8 +107,8 @@ html>* {
 
 .eye {
     position: absolute;
-    height: .8rem;
-    width: .8rem;
+    height: .5rem;
+    width: .5rem;
     border-radius: 100%;
     background: black;
 
@@ -121,33 +121,73 @@ html>* {
     &:after {
         content: '';
         position: absolute;
-         background: black;
+        background: black;
     }
 
     &:before {
-        height: .8rem;
-        width: .8rem;
+        height: .5rem;
+        width: .5rem;
         border-radius: 100%;
-       	margin-left:8rem;
+        margin-left: 8rem;
     }
-    &:after{
-    	height:1rem;
-    	width:.2rem;
-    	margin:{
-    		top:3.8rem;
-    		left:4.2rem;
-    	}
+
+    &:after {
+        height: 1rem;
+        width: .2rem;
+
+        margin: {
+            top: 3.8rem;
+            left: 4.2rem;
+        }
     }
 }
-.blush{
-position:absolute;
-	height:2rem;
-	width:2rem;
-	background:rgba(255,102,102,0.5);
-	border-radius:100%;
-	margin-top:5rem;
+
+.blush {
+    position: absolute;
+    height: 2rem;
+    width: 2rem;
+    background: rgba(255, 102, 102, 0.5);
+    border-radius: 100%;
+    margin-top: 5rem;
 
 }
-.left{
-		margin-left:7.7rem;
-	}
+
+.left {
+    margin-left: 7.7rem;
+}
+
+.antlayer {
+    position: absolute;
+    height: 5rem;
+    width: 5rem;
+    transform: rotate(20deg);
+
+    border: {
+        right: solid .7rem black;
+        top: solid 0rem transparent;
+        radius: 30%;
+    }
+
+    margin: {
+        top: 5rem;
+        left: 1.7rem;
+    }
+
+    &:before {
+        content: '';
+        position: absolute;
+        height: 5rem;
+        width: 5rem;
+        transform:rotate(-20deg);
+        margin:{
+        	left:-1rem;
+        	top:.3rem;
+        }
+        border: {
+            left: solid .7rem black;
+            top: solid 0rem transparent;
+            radius: 30%;
+        }
+    }
+
+}
